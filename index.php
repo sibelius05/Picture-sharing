@@ -1,5 +1,4 @@
 <?php
-ini_set('display_errors', 0);
 
 include 'config.php';
 spl_autoload_register(/**
@@ -84,14 +83,6 @@ else
 $n->accessableActiveSite();
 
 $n->validUserRights();
-
-//echo '<pre>';
-//if (isset($_GET)) print_r($_GET);
-//if (isset($user)) print_r($user);
-//if (isset($n)) print_r($n);
-//if (!empty($_SESSION)) print_r($_SESSION);
-//if (!empty($_COOKIE)) print_r($_COOKIE);
-//echo '</pre>';
 
 $n = $n ?? '';
 
