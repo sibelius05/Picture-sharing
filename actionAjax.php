@@ -1,5 +1,3 @@
-<?php ini_set('display_errors', 1); ?>
-<?php
 include 'config.php';
 
 spl_autoload_register(function ($className)
@@ -9,8 +7,6 @@ spl_autoload_register(function ($className)
 
 $action = $_POST['action'] ?? "";
 
-// verarbeitet Nutzeranmdeldung (provisorisch für einen User 'admin')
-if ($action == "sendActivationMail")
 {
     $id = $_POST['id'] ?? "";
 
