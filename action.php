@@ -2,7 +2,6 @@
 <?php
 $action = $_POST['action'] ?? "";
 
-// verarbeitet Nutzeranmdeldung (provisorisch für einen User 'admin')
 if ($action == "doLogin")
 {
     $login = $_POST['login'] ?? "";
@@ -55,10 +54,6 @@ elseif ($action == "doRegister")
             $registration->setPassword(User::newHash($registration->getPassword()));
 
             $registration->save();
-
-            //echo "<pre>";
-            //print_r($registration);
-            //echo "</pre>";
 
             $vars = array('birthday' => $registration->getBirthday(), 'gender' => $registration->getGender(), 'username' => $registration->getUsername(), 'password' => $password);
 
