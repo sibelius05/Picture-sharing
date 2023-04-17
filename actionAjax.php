@@ -7,6 +7,7 @@ spl_autoload_register(function ($className)
 
 $action = $_POST['action'] ?? "";
 
+if ($action == "sendActivationMail")
 {
     $id = $_POST['id'] ?? "";
 
