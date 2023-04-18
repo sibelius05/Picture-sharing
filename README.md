@@ -10,7 +10,7 @@ Der Name halbanalog bezieht sich auf die Ursprungsidee, eine Plattform für digi
 
 Die Nutzerarchitektur differenziert zwischen Besucher:innen, registrierten und aktiven Nutzer:innen sowie den Administrator:innen
 
-- Die Nutzer:innenarchtiektur weist diesen Gruppen entsprechende Rechte, Bedienelemente und Zugriffsmöglichkeiten zu.
+- Die Nutzer:innenarchitektur weist diesen Gruppen entsprechende Rechte, Bedienelemente und Zugriffsmöglichkeiten zu.
 
 - Registrierte Nutzer:innen erhalten einen eigenen Bereich, sind aber nicht sichtbar
 
