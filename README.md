@@ -28,7 +28,7 @@ Die Konfigurationsdatei setzt server- wie clientseitig gleichlautende Parameter.
 
 ## Beschreibung
 
-In der vorliegenden [Demo-Version](https://www.halbanalog.info) existieren fünf aktive Nutzer:innen - Paris, Rom, Siena, Florenz, Prag - sowie ein:e lediglich registrierte:r Nutzer:in - Wien.
+In der vorliegenden [Demo-Version](https://www.halbanalog.info) existieren fünf aktive Nutzer:innen - Paris, Rom, Siena, Florenz, Prag - sowie ein:e lediglich registrierte:r Nutzer:in - Wien (erscheint nicht als Menue-Eintrag).
 
 - Name und Passwort ergeben sich nach dem selben Schema und sind jeweils der kleingeschriebene Stadtname -> Paris: paris/paris
 
